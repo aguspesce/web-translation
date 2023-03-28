@@ -1,0 +1,10 @@
+name: scrap
+channels:
+  - conda-forge
+dependencies:
+  - python==3.10.*
+  - pip
+  - ipython
+  - pip:
+      - beautifulsoup4
+      - googletrans==4.0.0-rc1
